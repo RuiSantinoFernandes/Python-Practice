@@ -19,14 +19,15 @@
 # 372 is a multiple of 4 and it is even.
 # 372 is NOT divisible by 66.
 
+# Create user inputs.
 number = int(input("Enter a number... "))
 check = int(input("Enter another number to check... "))
 
-# Determine if the number is even, odd, or a multiple of 4
+# Determine if the number is even, odd, or a multiple of 4.
 if number % 4 == 0:
     print(f"{number} is a multiple of 4 and it is even.")
 else:
     print(f"{number} is {'even' if number % 2 == 0 else 'odd'}.")
 
-# Check divisibility
+# Check divisibility.
 print(f"{number} is {'divisible' if number % check == 0 else 'NOT divisible'} by {check}.")
